@@ -10,10 +10,8 @@ def KelvinToCelsius(k):
     return k-273.15
 def KelvinToFahrenheit(k):
     return (k-273.15)*9/5+32
-
 temperature =float(input("Enter Temperature value: "))
 unit=input("Enter Temperature unit(C for celsius,F for fahrenheit,K for Kelvin): ")
-
 if(unit=="C"):
     print("Temperature in Farenheit:",CelsiusToFahrenheit(temperature))
     print("Temperature in Kelvin:",CelsiusToKelvin(temperature))
